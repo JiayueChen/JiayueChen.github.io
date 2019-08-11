@@ -84,3 +84,11 @@ lightbox.option({
 })
 
 $(".row-style .row:nth-child(even)").css("flex-direction", "row-reverse");
+
+
+$('.navbar-nav>li>a').hover(function () {
+    $(this).toggleClass("animated swing");
+});
+$('.navbar-nav .dropdown-item').hover(function () {
+    $(this).toggleClass("animated pulse");
+});
