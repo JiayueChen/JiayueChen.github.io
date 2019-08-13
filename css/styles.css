@@ -79,6 +79,10 @@ section {
 }
 
 /* header */
+.navbar-brand img {
+    width: 60px;
+}
+
 nav a {
     color: #fff;
 }
@@ -87,8 +91,10 @@ header {
     background-color: #cbb4bb;
     z-index: 999;
     width: 100%;
+/*
     padding-top: 1em;
     padding-bottom: 1em;
+*/
 }
 
 header#home-header {
