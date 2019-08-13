@@ -323,8 +323,7 @@ a.project-link {
 
 .video-container {
     position: relative;
-    /*    overflow: hidden;*/
-
+    overflow: hidden;
 }
 
 .video-container iframe,
